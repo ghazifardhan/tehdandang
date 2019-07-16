@@ -6,7 +6,7 @@
         @foreach($products['data'] as $item)
         <div class="ps-product--list">
             <div class="ps-product__thumbnail"><a class="ps-product__overlay" href="product-detail.html"></a><img
-                    src="{{ $item->photo_products }}" alt=""></div>
+                    src="{{ asset('storage/' . $item->photo_products) }}" alt=""></div>
             <div class="ps-product__content">
                 <h4 class="ps-product__title"><a href="#">{{ $item->name }}</a></h4>
                 <p>{{ $item->description }}</p>
