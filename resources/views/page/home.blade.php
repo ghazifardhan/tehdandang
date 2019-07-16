@@ -4,6 +4,7 @@
 @include('partials.banner', ['banners' => $banners])
 @include('partials.bestsellers', ['bestsellers' => $bestsellers])
 
+{{--
 <section class="ps-section ps-section--best-seller pt-40 pb-100">
     <div class="container">
         <div class="row">
@@ -20,7 +21,9 @@
         </div>
     </div>
 </section>
+--}}
 
+{{--
 <section class="ps-section ps-section--list-product pt-40 pb-80">
     <div class="container">
         <div class="row">
@@ -30,8 +33,11 @@
         </div>
     </div>
 </section>
+--}}
 
-<section class="ps-section ps-section--team ps-section--pattern pt-80 pb-80">
+
+
+<section class="ps-section ps-section--team ps-section--pattern pt-40 pb-80">
     <div class="container">
         <div class="row">
             <div class="ps-section__header text-center mb-50">
@@ -80,6 +86,39 @@
         <div class="row">
             <div class="ps-section__header text-center mb-50">
                 <h4 class="ps-section__top">Teh Dandang</h4>
+                <h3 class="ps-section__title ps-section__title--full">Our Product</h3>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <div class="ps-section__content">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                            <article class="ps-people">
+                                <div class="ps-people__thumbnail">
+                                    <a class="ps-people__overlay" href="#"></a>
+                                    <img src="{{ asset('themes/images/product-celup.png') }}" alt="">
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                            <article class="ps-people">
+                                <div class="ps-people__thumbnail">
+                                    <a class="ps-people__overlay" href="#"></a>
+                                    <img src="{{ asset('themes/images/product-tubruk.png') }}" alt="">
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ps-section ps-section--best-seller ps-section--pattern pt-40 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="ps-section__header text-center mb-50">
+                <h4 class="ps-section__top">Teh Dandang</h4>
                 <h3 class="ps-section__title ps-section__title--full">Video Serving Teh Dandang</h3>
             </div>
                 
@@ -92,7 +131,7 @@
     </div>
 </section>
 
-<div class="ps-section ps-section--news" style="margin-bottom: 50px;">
+<div class="ps-section ps-section--news" style="margin-top: 50px; margin-bottom: 50px;">
     <div class="container">
         <div class="row">
             <div class="ps-section__header text-center mb-50">
