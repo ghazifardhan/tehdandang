@@ -1249,12 +1249,12 @@ ul, ol {
 }
 
 .ps-list--circle a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-list--circle a:hover .circle {
-  background-color: #ee7560;
-  border-color: #ee7560;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .ps-list--circle a:hover .circle:before {
@@ -1268,11 +1268,11 @@ ul, ol {
 }
 
 .ps-list--circle li.current a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-list--circle li.current .circle {
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .ps-list--circle li.current .circle:before {
@@ -1305,12 +1305,12 @@ ul, ol {
 }
 
 .ps-list--arrow a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-list--arrow a:hover .circle {
-  background-color: #ee7560;
-  border-color: #ee7560;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .ps-list--arrow a:hover .circle:before {
@@ -1324,11 +1324,11 @@ ul, ol {
 }
 
 .ps-list--arrow li.current a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-list--arrow li.current .circle {
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .ps-list--arrow li.current .circle:before {
@@ -1381,7 +1381,7 @@ ul, ol {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 textarea.form-control {
@@ -1447,7 +1447,7 @@ textarea.form-control {
 }
 
 .form-group--number button:hover {
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .form-group--number button.minus {
@@ -1601,9 +1601,9 @@ textarea.form-control {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
 }
 
 .ps-btn i, button.ps-btn i {
@@ -1674,7 +1674,7 @@ textarea.form-control {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid #ee7560;
+  border: 2px solid #ff0000;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -1691,14 +1691,14 @@ textarea.form-control {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #ee7560;
+  color: #ff0000;
   z-index: 10001;
   font-size: 20px;
 }
 
 #back2top:hover {
   cursor: pointer;
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 #back2top:hover i {
@@ -1792,7 +1792,7 @@ textarea.form-control {
 .ps-people__content .ps-people__position {
   font-family: "Varela Round", sans-serif;
   font-size: 12px;
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-people__content p {
@@ -1972,9 +1972,9 @@ textarea.form-control {
 }
 
 .ps-product .ps-product__action a:hover {
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
 }
 
 .ps-product .ps-product__action a:hover:before, .ps-product .ps-product__action a:hover:after {
@@ -2271,7 +2271,7 @@ textarea.form-control {
 }
 
 .ps-product--list-light .ps-product__title a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--list-light .ps-product__title a:hover {
@@ -2304,7 +2304,7 @@ textarea.form-control {
 }
 
 .ps-product--sidebar .ps-product__thumbnail:hover .ps-product__overlay {
-  border: 1px solid #ee7560;
+  border: 1px solid #ff0000;
 }
 
 .ps-product--sidebar .ps-product__overlay {
@@ -2336,7 +2336,7 @@ textarea.form-control {
 }
 
 .ps-product--sidebar .ps-product__title:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--sidebar .ps-product__price {
@@ -2484,9 +2484,9 @@ textarea.form-control {
 }
 
 .ps-product--list-large .ps-product__action a:hover {
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
 }
 
 .ps-product--list-large .ps-product__action a:hover:before, .ps-product--list-large .ps-product__action a:hover:after {
@@ -2593,7 +2593,7 @@ textarea.form-control {
 }
 
 .ps-product--detail .ps-product__quickview:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--detail .ps-product__description {
@@ -2610,7 +2610,7 @@ textarea.form-control {
 .ps-product--detail .ps-product__meta p {
   margin-bottom: 20px;
   font-family: "Varela Round", sans-serif;
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--detail .ps-product__meta p span {
@@ -2628,7 +2628,7 @@ textarea.form-control {
 }
 
 .ps-product--detail .ps-product__meta p a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--detail .ps-product__meta p.category {
@@ -2753,9 +2753,9 @@ textarea.form-control {
 }
 
 .ps-product--detail .ps-product__action a:hover {
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
 }
 
 .ps-product--detail .ps-product__action a:hover:before, .ps-product--detail .ps-product__action a:hover:after {
@@ -2817,7 +2817,7 @@ textarea.form-control {
 }
 
 .ps-product--detail .ps-product__sharing a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--detail .ps-product__info {
@@ -2856,7 +2856,7 @@ textarea.form-control {
   margin: 0 auto;
   width: 0;
   height: 1px;
-  background-color: #ee7560;
+  background-color: #ff0000;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -2868,7 +2868,7 @@ textarea.form-control {
 }
 
 .ps-product--detail .tab-list li.active a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-product--detail .tab-list li.active a:before {
@@ -3257,7 +3257,7 @@ textarea.form-control {
 }
 
 .ps-widget--search .form-control:focus {
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .ps-widget--search button {
@@ -3278,11 +3278,11 @@ textarea.form-control {
 }
 
 .ps-widget--search button:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-widget--search input:focus ~ button {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-widget--best-seller .ps-product--sidebar {
@@ -3307,8 +3307,8 @@ textarea.form-control {
 }
 
 .ps-widget--tags .ps-tags a:hover {
-  color: #ee7560;
-  border-color: #ee7560;
+  color: #ff0000;
+  border-color: #ff0000;
 }
 
 .ps-widget--tags .ps-tags li {
@@ -3366,7 +3366,7 @@ textarea.form-control {
   font-family: "Varela Round", sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .br-theme-fontawesome-stars .br-widget {
@@ -3550,9 +3550,9 @@ textarea.form-control {
   color: #fff;
   background-color: transparent;
   border-color: #fff;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(left, #ee7560, #ff5858);
-  background-image: linear-gradient(to right,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(left, #ff0000, #ff5858);
+  background-image: linear-gradient(to right,#ff0000, #ff5858);
 }
 
 .ps-pagination .pagination li > a:hover:after {
@@ -3564,9 +3564,9 @@ textarea.form-control {
   color: #fff;
   background-color: transparent;
   border-color: #fff;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(left, #ee7560, #ff5858);
-  background-image: linear-gradient(to right,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(left, #ff0000, #ff5858);
+  background-image: linear-gradient(to right,#ff0000, #ff5858);
 }
 
 .ps-pagination .pagination li.active > a:after {
@@ -3814,7 +3814,7 @@ textarea.form-control {
 }
 
 .ps-review-box header p a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-review-box header p a:hover {
@@ -3915,7 +3915,7 @@ textarea.form-control {
 }
 
 .ps-post .ps-post__title:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-post .ps-post__meta span {
@@ -3960,7 +3960,7 @@ textarea.form-control {
 }
 
 .ps-post .ps-post__meta span a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-post .ps-post__content p {
@@ -4074,7 +4074,7 @@ textarea.form-control {
 
 .ps-post .ps-post__action a.like:hover {
   color: #fff;
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .ps-post .ps-post__action a.like:hover > i {
@@ -4082,12 +4082,12 @@ textarea.form-control {
 }
 
 .ps-post .ps-post__action a.like:hover span {
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .ps-post .ps-post__action a:hover {
-  background-color: #ee7560;
-  border-color: #ee7560;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 @media (max-width: 767px) {
@@ -4181,7 +4181,7 @@ textarea.form-control {
 }
 
 .ps-post--sidebar .ps-post__content a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-post--sidebar .ps-post__content span {
@@ -4227,8 +4227,8 @@ textarea.form-control {
 
 .ps-blog-detail .ps-post__tags > a:hover {
   color: #fff;
-  background-color: #ee7560;
-  border-color: #ee7560;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .ps-blog-detail .ps-blog-comment, .ps-blog-detail .ps-contact {
@@ -4400,7 +4400,7 @@ textarea.form-control {
 }
 
 .ps-cake:hover {
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .ps-cake:hover:before {
@@ -4560,7 +4560,7 @@ textarea.form-control {
 }
 
 .ps-cake-list .owl-item.current .ps-cake {
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .ps-cake-list .owl-item.current .ps-cake:before {
@@ -4594,7 +4594,7 @@ textarea.form-control {
 }
 
 .ps-product-special--2 .ps-cake-list .slick-current .ps-cake {
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .ps-product-special--2 .ps-cake-list .slick-current .ps-cake:before {
@@ -4886,7 +4886,7 @@ textarea.form-control {
 }
 
 #modal--subscribe p span {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 #modal--subscribe .form-group {
@@ -5160,7 +5160,7 @@ textarea.form-control {
   margin-bottom: 15px;
   font-family: "Pacifico", cursive;
   font-size: 24px;
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-section__title {
@@ -5571,9 +5571,9 @@ textarea.form-control {
 
 .ps-section--home-testimonial .owl-slider .owl-dot.active {
   width: 70px;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(left, #ee7560, #ff5858);
-  background-image: linear-gradient(to right,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(left, #ff0000, #ff5858);
+  background-image: linear-gradient(to right,#ff0000, #ff5858);
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -5665,7 +5665,7 @@ textarea.form-control {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #ee7560;
+  background-color: #ff0000;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -5680,7 +5680,7 @@ textarea.form-control {
   width: 18px;
   outline: none;
   cursor: pointer;
-  background-color: #ee7560;
+  background-color: #ff0000;
   border: 2px solid #fff;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -5765,7 +5765,7 @@ textarea.form-control {
     background-color: #ff5858;
   }
   29% {
-    background-color: #ee7560;
+    background-color: #ff0000;
   }
   30% {
     height: 50px;
@@ -5790,7 +5790,7 @@ textarea.form-control {
     background-color: #ff5858;
   }
   29% {
-    background-color: #ee7560;
+    background-color: #ff0000;
   }
   30% {
     height: 50px;
@@ -5815,7 +5815,7 @@ textarea.form-control {
     background-color: #ff5858;
   }
   29% {
-    background-color: #ee7560;
+    background-color: #ff0000;
   }
   30% {
     height: 50px;
@@ -6047,9 +6047,9 @@ textarea.form-control {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
 }
 
 .ps-list--footer .ps-cart-count .quantity i {
@@ -6289,7 +6289,7 @@ textarea.form-control {
 
 .menu > li > a:hover {
   color: #ff5858;
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .menu > li > .sub-menu {
@@ -6298,8 +6298,8 @@ textarea.form-control {
 }
 
 .menu > li.current > a {
-  color: #ee7560;
-  border-color: #ee7560;
+  color: #ff0000;
+  border-color: #ff0000;
 }
 
 .menu > li.menu-item-has-children > a:after {
@@ -6458,9 +6458,9 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   z-index: 10;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.4s ease;
@@ -6609,9 +6609,9 @@ textarea.form-control {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background-color: #ee7560;
-  background-image: -webkit-linear-gradient(-360deg, #ee7560, #ff5858);
-  background-image: linear-gradient(90deg,#ee7560, #ff5858);
+  background-color: #ff0000;
+  background-image: -webkit-linear-gradient(-360deg, #ff0000, #ff5858);
+  background-image: linear-gradient(90deg,#ff0000, #ff5858);
 }
 
 .ps-cart__toggle span i {
@@ -6730,7 +6730,7 @@ textarea.form-control {
 }
 
 .ps-cart-listing__remove:hover {
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .ps-cart-listing__remove:hover:before, .ps-cart-listing__remove:hover:after {
@@ -6865,7 +6865,7 @@ textarea.form-control {
 }
 
 .ps-cart-listing .ps-product--cart a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-cart-listing .ps-cart-listing__remove {
@@ -6916,7 +6916,7 @@ textarea.form-control {
 }
 
 .ps-cart-listing .ps-cart-listing__remove:hover {
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .ps-cart-listing .ps-cart-listing__remove:hover:before, .ps-cart-listing .ps-cart-listing__remove:hover:after {
@@ -7258,7 +7258,7 @@ textarea.form-control {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 20px;
-  color: #ee7560;
+  color: #ff0000;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -7300,7 +7300,7 @@ textarea.form-control {
 }
 
 .ps-searchbox form input.form-control:focus {
-  border-color: #ee7560;
+  border-color: #ff0000;
 }
 
 .ps-searchbox form button {
@@ -7338,11 +7338,11 @@ textarea.form-control {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .ps-searchbox__morelink:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-searchbox.active {
@@ -7646,7 +7646,7 @@ textarea.form-control {
 }
 
 .ps-shop-switch li:hover a, .ps-shop-switch li.active a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 @media (max-width: 767px) {
@@ -7723,7 +7723,7 @@ textarea.form-control {
 }
 
 .ps-contact__social a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .ps-contact__social li {
@@ -7856,7 +7856,7 @@ textarea.form-control {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  background-color: #ee7560;
+  background-color: #ff0000;
   color: #fff;
 }
 
@@ -7889,7 +7889,7 @@ textarea.form-control {
 
 .header .ps-dropdown ul.dropdown-menu li a:hover {
   color: #fff;
-  background-color: #ee7560;
+  background-color: #ff0000;
 }
 
 .header .ps-dropdown ul.dropdown-menu li:last-child {
@@ -8052,7 +8052,7 @@ textarea.form-control {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  background-color: #ee7560;
+  background-color: #ff0000;
   color: #fff;
 }
 
@@ -8065,11 +8065,11 @@ textarea.form-control {
 }
 
 .header--2 .menu > li > a:hover {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 .header--2 .menu > li.current > a {
-  color: #ee7560;
+  color: #ff0000;
 }
 
 @media (max-width: 1199px) {

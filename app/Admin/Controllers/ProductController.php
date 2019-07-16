@@ -15,7 +15,7 @@ class ProductController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Product';
+    protected $title = 'Product';
 
     /**
      * Make a grid builder.

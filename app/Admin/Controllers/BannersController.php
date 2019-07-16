@@ -8,7 +8,7 @@ use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Show;
 
-class BannerController extends AdminController
+class BannersController extends AdminController
 {
     /**
      * Title for current resource.
@@ -68,7 +68,7 @@ class BannerController extends AdminController
         $form = new Form(new Banner);
 
         $form->text('title', __('Title'));
-        // $form->image('image', __('Image'))->uniqueName();
+        $form->image('image', __('Image'));
         $form->textarea('content', __('Content'));
         $form->number('order', __('Order'));
 

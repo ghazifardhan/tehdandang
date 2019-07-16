@@ -20,7 +20,7 @@ class MenuController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Menu';
+    protected $title = 'Menu';
 
     public function index(Content $content)
     {

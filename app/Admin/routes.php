@@ -12,7 +12,7 @@ Route::group([
 
     $router->get('/', 'HomeController@index')->name('admin.home');
     $router->resource('settings', SettingController::class);
-    $router->resource('banners', BannerController::class);
+    $router->resource('banner', BannersController::class);
     $router->resource('products', ProductController::class);
     $router->resource('menus', MenuController::class);
 });
