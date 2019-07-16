@@ -3,7 +3,7 @@
         <div class="menu-toggle"><span></span></div>
         <div class="navigation__left">
             <a href=""><img src="{{ asset('themes/images/logo-dandang.png') }}" alt=""></a>
-            <a href="/">Home</a>
+            <!-- <a href="/">Home</a> -->
         </div>
 
         <div class="navigation__right">
