@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Menu;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -44,9 +45,11 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show($slug)
     {
-        //
+        $product = (new Product())->where('slug', $slug)->first();
+
+        return view('page.product', compact('product'));
     }
 
     /**

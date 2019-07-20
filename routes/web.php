@@ -14,3 +14,4 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('menu/{slug}', 'MenuController@index')->name('menu.index');
+Route::get('product/{slug}', 'ProductController@show')->name('product.show');

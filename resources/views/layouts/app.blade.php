@@ -10,11 +10,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="favicon.png" rel="icon">
+    <link href="{{ asset('storage/' . $settings->site_icon) }}" rel="icon">
     <meta name="author" content="#{author}">
     <meta name="keywords" content="#{keyword}">
     <meta name="description" content="#{description}">
-    <title>Teh Celup Cap</title>
+    <title>{{ $settings->site_title }} - {{ $settings->tagline }}</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700%7CPacifico%7CVarela+Round%7CPoppins" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('themes/plugins/font-awesome/css/font-awesome.min.css') }}">
@@ -115,6 +115,8 @@
         @yield('content');
 
         @include('partials.footer')
+
+        @yield('popup')
 
         <!-- Newsletter -->
         <div class="mfp-with-anim modal-popup mfp-hide" id="modal--subscribe">

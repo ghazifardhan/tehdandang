@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="#"></a><img
+                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/history-of-the-product"></a><img
                                         src="{{ asset('themes/images/about/about-1.jpg') }}" alt=""></div>
                                 <div class="ps-people__content">
                                     <h4>History Of<br />The Product</h4>
@@ -58,7 +58,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="#"></a><img
+                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/simple-company-explanation"></a><img
                                         src="{{ asset('themes/images/about/about-2.jpg') }}" alt=""></div>
                                 <div class="ps-people__content">
                                     <h4>Simple Company<br />Explanation</h4>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="#"></a><img
+                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/what-we-believe"></a><img
                                         src="{{ asset('themes/images/about/about-3.jpg') }}" alt=""></div>
                                 <div class="ps-people__content">
                                     <h4>What We <br />Believe</h4>
@@ -94,7 +94,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <article class="ps-people">
                                 <div class="ps-people__thumbnail">
-                                    <a class="ps-people__overlay" href="#"></a>
+                                    <a class="ps-people__overlay" href="/menu/teh-dandang-taburtubruk"></a>
                                     <img src="{{ asset('themes/images/product-celup.png') }}" alt="">
                                 </div>
                             </article>
@@ -102,7 +102,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <article class="ps-people">
                                 <div class="ps-people__thumbnail">
-                                    <a class="ps-people__overlay" href="#"></a>
+                                    <a class="ps-people__overlay" href="/menu/teh-dandang-bag"></a>
                                     <img src="{{ asset('themes/images/product-tubruk.png') }}" alt="">
                                 </div>
                             </article>
@@ -163,13 +163,10 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                     <h3>
-                        <font color="white">TEH CAP DANDANG</font>
+                        <font color="white">{{ $settings->company_title }}</font>
                     </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
-                    <p class="text-uppercase ps-subscribe__highlight"><b>Jl. Urip Sumohardjo No. 74 RT 02/01 Kel.
-                            Sambong, Kec. Batang, Jawa Tengah, Indonesia 51212</b></p>
+                    <p>{{ $settings->company_description }}</p>
+                    <p class="text-uppercase ps-subscribe__highlight"><b>{{ $settings->address }}</b></p>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 ">
                 </div>

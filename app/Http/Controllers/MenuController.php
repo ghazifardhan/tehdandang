@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Menu;
 use Illuminate\Http\Request;
+use App\Product;
 
 class MenuController extends Controller
 {
@@ -40,7 +41,15 @@ class MenuController extends Controller
             case 'health-conscious':
                 return view('page.static', compact('menus'));
             case 'contact':
-                return view('page.static', compact('menus'));
+                return view('page.contact', compact('menus'));
+            case 'teh-dandang-taburbubuk':
+
+                $products = (new Product())->get();
+                return view('page.product-list', compact('menus', 'products'));
+            case 'teh-dandang-bag':
+
+                $products = (new Product())->get();
+                return view('page.product-list', compact('menus', 'products'));
             default:
                 return redirect('/');
         }

@@ -2,7 +2,8 @@
     <div class="container">
         <div class="menu-toggle"><span></span></div>
         <div class="navigation__left">
-            <a href=""><img src="{{ asset('themes/images/logo-dandang.png') }}" alt=""></a>
+            <!-- <a href=""><img src="{{ asset('themes/images/logo-dandang.png') }}" alt=""></a> -->
+            <a href="/"><img src="{{ asset('storage/' . $settings->thumbnail('small', 'site_logo')) }}" alt=""></a>
             <!-- <a href="/">Home</a> -->
         </div>
 
