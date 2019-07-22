@@ -15,4 +15,5 @@ Route::group([
     $router->resource('banner', BannersController::class);
     $router->resource('products', ProductController::class);
     $router->resource('menus', MenuController::class);
+    $router->resource('official-stores', OfficialStoreController::class);
 });

@@ -2,7 +2,10 @@
 @section('content')
 
 @include('partials.banner', ['banners' => $banners])
+
+{{--
 @include('partials.bestsellers', ['bestsellers' => $bestsellers])
+--}}
 
 {{--
 <section class="ps-section ps-section--best-seller pt-40 pb-100">
@@ -114,6 +117,7 @@
     </div>
 </section>
 
+{{--
 <section class="ps-section ps-section--best-seller ps-section--pattern pt-40 pb-100">
     <div class="container">
         <div class="row">
@@ -130,6 +134,9 @@
         </div>
     </div>
 </section>
+--}}
+
+@include('partials.video')
 
 <div class="ps-section ps-section--news" style="margin-top: 50px; margin-bottom: 50px;">
     <div class="container">
@@ -142,16 +149,10 @@
                 data-owl-nav="false" data-owl-dots="false" data-owl-animate-in="" data-owl-animate-out="" data-owl-item="6"
                 data-owl-item-xs="4" data-owl-item-sm="4" data-owl-item-md="4" data-owl-item-lg="4"
                 data-owl-nav-left="&lt;i class=&quot;fa fa-angle-left&quot;&gt;&lt;/i&gt;"
-                data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;"><a href="#"><img
-                        src="{{ asset('themes/images/partner/1.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/2.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/3.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/4.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/5.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/6.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/7.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/8.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/9.jpg') }}" alt=""></a>
+                data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;">
+                    @foreach($officialStores as $item)
+                    <a href="{{ url($item->url) }}" class="grayscale-logo" target="_blank"><img src="{{ asset('storage/' . $item->image) }}" alt=""></a>
+                    @endforeach
             </div>
         </div>
     </div>

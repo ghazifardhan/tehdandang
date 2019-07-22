@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Banner;
 use App\Product;
+use App\OfficialStore;
 
 class HomeController extends Controller
 {
@@ -21,9 +22,10 @@ class HomeController extends Controller
             'title' => 'Teh Celup',
             'data' => (new Product)->where('product_type_id', 2)->get()
         );
+        $officialStores = (new OfficialStore)->orderBy('id', 'ASC')->get();
         
 
-        return view('page.home', compact('banners', 'bestsellers', 'tubruks', 'bubuks'));
+        return view('page.home', compact('banners', 'bestsellers', 'tubruks', 'bubuks', 'officialStores'));
 
     }
 
