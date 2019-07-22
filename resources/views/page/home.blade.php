@@ -117,28 +117,27 @@
     </div>
 </section>
 
-{{--
-<section class="ps-section ps-section--best-seller ps-section--pattern pt-40 pb-100">
+@include('partials.video')
+
+<section class="ps-section ps-section--best-seller pt-40 pb-100">
     <div class="container">
         <div class="row">
             <div class="ps-section__header text-center mb-50">
-                <h4 class="ps-section__top">Teh Dandang</h4>
-                <h3 class="ps-section__title ps-section__title--full">Video Serving Teh Dandang</h3>
+                <h4 class="ps-section__top">Our Story</h4>
+                <h3 class="ps-section__title ps-section__title--full">Teh Dandang</h3>
             </div>
                 
             <div class="ps-section__content">
-                <iframe width="560" height="560" src="https://www.youtube.com/embed/jbox3FKM4vM" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <video style="width: 100%;" height="500" controls loop>
+                    <source src="{{ asset('assets/video/teh_dandang_gula_cair.mp4') }}" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
         </div>
     </div>
 </section>
---}}
 
-@include('partials.video')
-
-<div class="ps-section ps-section--news" style="margin-top: 50px; margin-bottom: 50px;">
+<div class="ps-section ps-section--news ps-section--pattern pt-40 pb-40">
     <div class="container">
         <div class="row">
             <div class="ps-section__header text-center mb-50">
