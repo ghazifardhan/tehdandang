@@ -186,7 +186,7 @@
                         <font color="white">{{ $settings->company_title }}</font>
                     </h3>
                     <p>{{ $settings->company_description }}</p>
-                    <p class="text-uppercase ps-subscribe__highlight"><b>{{ $settings->address }}</b></p>
+                    <p class="text-uppercase ps-subscribe__highlight">{{ $settings->address }}</p>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 ">
                 </div>
