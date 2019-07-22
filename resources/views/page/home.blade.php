@@ -161,7 +161,7 @@
                 data-owl-nav-left="&lt;i class=&quot;fa fa-angle-left&quot;&gt;&lt;/i&gt;"
                 data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;">
                     @foreach($officialStores as $item)
-                    <a href="{{ url($item->url) }}" class="grayscale-logo" target="_blank"><img src="{{ asset('storage/' . $item->image) }}" alt=""></a>
+                    <a href="{{ url($item->url) }}" target="_blank"><img src="{{ asset('storage/' . $item->image) }}" class="grayscale-logo" alt=""></a>
                     @endforeach
             </div>
         </div>
