@@ -21,25 +21,35 @@ class MenuController extends Controller
             case 'home':
                 return redirect('/');
             case 'history-of-the-product':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/about-us.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'simple-company-explanation':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/about-us.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'what-we-believe':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/about-us.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'basic-serving':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/serving.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'serving-for-family-in-daily-life':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/serving.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'serving-simple-tea':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/serving.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'serving-ice-tea':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/serving.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'we-have-our-own-plantation':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/we-have-our-tea-plantation.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'nature-process':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/nature-process.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'health-conscious':
-                return view('page.static', compact('menus'));
+                $headerImage = asset('assets/image/health-conscious.jpeg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'contact':
                 return view('page.contact', compact('menus'));
             case 'teh-dandang-taburbubuk':
