@@ -8947,6 +8947,8 @@ html .bg--parallax {
   padding-left: 100px;
 }
 
+/* 6. CUSTOM STYLESHEET*/
+
 .grayscale-logo {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -8956,7 +8958,5 @@ html .bg--parallax {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
-
-/* 6. CUSTOM STYLESHEET*/
 
 /*# sourceMappingURL=style.css.map */

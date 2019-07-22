@@ -144,11 +144,11 @@
                 <h4 class="ps-section__top">Teh Dandang</h4>
                 <h3 class="ps-section__title ps-section__title--full">Tersedia di Toko Grosir</h3>
             </div>
-            <div class="owl-slider" 
+            <div class="owl-slider"
                 data-owl-auto="true" 
                 data-owl-loop="true" 
                 data-owl-speed="10000" 
-                data-owl-gap="40"
+                data-owl-center="true"
                 data-owl-nav="false" 
                 data-owl-dots="false" 
                 data-owl-animate-in="" 
@@ -161,7 +161,16 @@
                 data-owl-nav-left="&lt;i class=&quot;fa fa-angle-left&quot;&gt;&lt;/i&gt;"
                 data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;">
                     @foreach($officialStores as $item)
-                    <a href="{{ url($item->url) }}" target="_blank"><img src="{{ asset('storage/' . $item->image) }}" class="grayscale-logo" alt=""></a>
+                    <a 
+                        href="{{ url($item->url) }}" 
+                        target="_blank"
+                        style="display: flex; flex: 1; justify-content: center; align-items: center;height: 100px;">
+                        <img 
+                            src="{{ asset('storage/' . $item->image) }}" 
+                            class="grayscale-logo" 
+                            alt=""
+                            style="width: 150px;">
+                    </a>
                     @endforeach
             </div>
         </div>
