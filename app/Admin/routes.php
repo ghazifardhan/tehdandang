@@ -16,4 +16,5 @@ Route::group([
     $router->resource('products', ProductController::class);
     $router->resource('menus', MenuController::class);
     $router->resource('official-stores', OfficialStoreController::class);
+    $router->resource('promotions', PromotionController::class);
 });

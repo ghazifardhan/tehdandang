@@ -16,12 +16,10 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
                 <div class="ps-section__content">
-                    {{--
-                    <iframe width="560" height="500" src="https://www.youtube.com/embed/jbox3FKM4vM?rel=0?version=3&autoplay=1&controls=0&showinfo=0&loop=1" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    --}}
-                    <video width="750" height="500" controls loop>
+                    <video 
+                        class="custom-video"
+                        controls 
+                        loop>
                         <source src="{{ asset('assets/video/teh_dandang_gula_cair.mp4') }}" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>

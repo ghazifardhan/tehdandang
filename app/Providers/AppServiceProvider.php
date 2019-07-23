@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Setting;
+use App\Promotion;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -26,7 +27,12 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         $settings = (new Setting)->find(1);
+        $promos = (new Promotion)->where([
+            'id' => 1,
+            'is_active' => true
+        ])->first();
 
         View::share('settings', $settings);
+        View::share('promos', $promos);
     }
 }

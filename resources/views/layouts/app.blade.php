@@ -119,17 +119,7 @@
         @yield('popup')
 
         <!-- Newsletter -->
-        <div class="mfp-with-anim modal-popup mfp-hide" id="modal--subscribe">
-            <button class="modal-close"><i class="fa fa-remove"></i></button><img src="{{ asset('themes/images/img-demo-4.png') }}" alt="">
-            <form action="_action" method="post">
-            <h3>STAY UP-TO-DATE  WITH OUR NEWLETTER</h3>
-            <p>Follow us & get <span> 20% OFF </span> coupon for first purchase !!!!!</p>
-            <div class="form-group">
-                <input class="form-control" type="text" placeholder="Type your email...">
-                <button class="ps-btn ps-btn--sm">Subscribe</button>
-            </div>
-            </form>
-        </div>
+        @include('partials.promo')
     </div>
     <!-- JS Library-->
     <script type="text/javascript" src="{{ asset('themes/plugins/jquery/dist/jquery.min.js') }}"></script>

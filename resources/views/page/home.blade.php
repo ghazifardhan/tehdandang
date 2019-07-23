@@ -128,7 +128,10 @@
             </div>
                 
             <div class="ps-section__content">
-                <video style="width: 100%;" height="500" controls loop>
+                <video 
+                    class="custom-video"
+                    controls 
+                    loop>
                     <source src="{{ asset('assets/video/teh_dandang_gula_cair.mp4') }}" type="video/mp4">
                     Your browser does not support HTML5 video.
                 </video>

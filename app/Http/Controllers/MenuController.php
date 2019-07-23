@@ -53,11 +53,9 @@ class MenuController extends Controller
             case 'contact':
                 return view('page.contact', compact('menus'));
             case 'teh-dandang-taburbubuk':
-
                 $products = (new Product())->get();
                 return view('page.product-list', compact('menus', 'products'));
             case 'teh-dandang-bag':
-
                 $products = (new Product())->get();
                 return view('page.product-list', compact('menus', 'products'));
             default:
