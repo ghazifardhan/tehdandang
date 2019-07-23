@@ -91,8 +91,8 @@ class SettingController extends AdminController
         $form->text('site_title', __('Site title'));
         $form->text('tagline', __('Tagline'));
         $form->text('site_url', __('Site url'));
-        $form->image('site_icon', __('Site icon'));
-        $form->image('site_logo', __('Site logo'))->thumbnail('small', $width = 156, $height = 41);;
+        $form->image('site_icon', __('Site icon'))->uniqueName();
+        $form->image('site_logo', __('Site logo'))->thumbnail('small', $width = 156, $height = 41)->uniqueName();
         $form->text('facebook_url', __('Facebook url'));
         $form->text('twitter_url', __('Twitter url'));
         $form->text('instagram_url', __('Instagram url'));

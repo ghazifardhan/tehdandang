@@ -68,7 +68,7 @@ class BannersController extends AdminController
         $form = new Form(new Banner);
 
         $form->text('title', __('Title'));
-        $form->image('image', __('Image'));
+        $form->image('image', __('Image'))->uniqueName();
         $form->textarea('content', __('Content'));
         $form->number('order', __('Order'));
 

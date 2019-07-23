@@ -67,7 +67,7 @@ class OfficialStoreController extends AdminController
 
         $form->text('name', __('Name'));
         $form->url('url', __('Url'));
-        $form->image('image', __('Image'));
+        $form->image('image', __('Image'))->uniqueName();
 
         return $form;
     }
