@@ -145,7 +145,7 @@
         <div class="row">
             <div class="ps-section__header text-center mb-50">
                 <h4 class="ps-section__top">Teh Dandang</h4>
-                <h3 class="ps-section__title ps-section__title--full">Tersedia di Toko Grosir</h3>
+                <h3 class="ps-section__title ps-section__title--full">OFFICIAL STORE TEH DANDANG</h3>
             </div>
             <div class="owl-slider"
                 data-owl-auto="true" 
