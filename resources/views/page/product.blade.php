@@ -106,27 +106,41 @@
     </div>
 </div>
 
-<div class="ps-section ps-section--news pt-20 pb-20 " style="margin-top: 50px; margin-bottom: 50px;">
+<div class="ps-section ps-section--news pt-40 pb-40">
     <div class="container">
         <div class="row">
             <div class="ps-section__header text-center mb-50">
                 <h4 class="ps-section__top">Teh Dandang</h4>
-                <h3 class="ps-section__title ps-section__title--full">Tersedia di Toko Grosir</h3>
+                <h3 class="ps-section__title ps-section__title--full">OFFICIAL STORE TEH DANDANG</h3>
             </div>
-            <div class="owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="10000" data-owl-gap="40"
-                data-owl-nav="false" data-owl-dots="false" data-owl-animate-in="" data-owl-animate-out="" data-owl-item="6"
-                data-owl-item-xs="4" data-owl-item-sm="4" data-owl-item-md="4" data-owl-item-lg="4"
+            <div class="owl-slider"
+                data-owl-auto="true" 
+                data-owl-loop="true" 
+                data-owl-speed="10000" 
+                data-owl-center="true"
+                data-owl-nav="false" 
+                data-owl-dots="false" 
+                data-owl-animate-in="" 
+                data-owl-animate-out="" 
+                data-owl-item="4"
+                data-owl-item-xs="4" 
+                data-owl-item-sm="4" 
+                data-owl-item-md="4" 
+                data-owl-item-lg="4"
                 data-owl-nav-left="&lt;i class=&quot;fa fa-angle-left&quot;&gt;&lt;/i&gt;"
-                data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;"><a href="#"><img
-                        src="{{ asset('themes/images/partner/1.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/2.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/3.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/4.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/5.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/6.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/7.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/8.jpg') }}" alt=""></a><a href="#"><img
-                        src="{{ asset('themes/images/partner/9.jpg') }}" alt=""></a>
+                data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;">
+                    @foreach($officialStores as $item)
+                    <a 
+                        href="{{ url($item->url) }}" 
+                        target="_blank"
+                        style="display: flex; flex: 1; justify-content: center; align-items: center;height: 100px;">
+                        <img 
+                            src="{{ asset('storage/' . $item->image) }}" 
+                            class="grayscale-logo" 
+                            alt=""
+                            style="width: 150px;">
+                    </a>
+                    @endforeach
             </div>
         </div>
     </div>

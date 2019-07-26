@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use App\Menu;
+use App\OfficialStore;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -48,8 +49,9 @@ class ProductController extends Controller
     public function show($slug)
     {
         $product = (new Product())->where('slug', $slug)->first();
+        $officialStores = (new OfficialStore)->orderBy('id', 'ASC')->get();
 
-        return view('page.product', compact('product'));
+        return view('page.product', compact('product', 'officialStores'));
     }
 
     /**
