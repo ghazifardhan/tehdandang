@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<div class="ps-section--hero"><img src="{{ asset('themes/images/hero/01.jpg') }}" alt="">
+<div class="ps-section--hero"><img src="{{ $headerImage }}" alt="">
     <div class="ps-section__content text-center">
         <h3 class="ps-section__title">{{ $menus->title }}</h3>
         <div class="ps-breadcrumb">

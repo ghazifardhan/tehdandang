@@ -21,43 +21,46 @@ class MenuController extends Controller
             case 'home':
                 return redirect('/');
             case 'history-of-the-product':
-                $headerImage = asset('assets/image/about-us.jpeg');
+                $headerImage = asset('assets/image/About-Us-HISTORY-OF-THE-PRODUCT.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'simple-company-explanation':
-                $headerImage = asset('assets/image/about-us.jpeg');
+                $headerImage = asset('assets/image/About-Us-SIMPLE-COMPANY-EXPLANATION.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'what-we-believe':
-                $headerImage = asset('assets/image/about-us.jpeg');
+                $headerImage = asset('assets/image/About-Us-WHAT-WE-BELIEVE.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'basic-serving':
-                $headerImage = asset('assets/image/serving.jpeg');
+                $headerImage = asset('assets/image/BASIC-SERVING.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'serving-for-family-in-daily-life':
-                $headerImage = asset('assets/image/serving.jpeg');
+                $headerImage = asset('assets/image/SERVING-FOR-FAMILY-IN-DAILY-LIFE.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'serving-simple-tea':
-                $headerImage = asset('assets/image/serving.jpeg');
+                $headerImage = asset('assets/image/SERVING-SIMPLE-TEA.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'serving-ice-tea':
-                $headerImage = asset('assets/image/serving.jpeg');
+                $headerImage = asset('assets/image/SERVING-ICE-TEA.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'we-have-our-own-plantation':
-                $headerImage = asset('assets/image/we-have-our-tea-plantation.jpeg');
+                $headerImage = asset('assets/image/WE-HAVE-OUR-OWN-PLANTATION.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'nature-process':
-                $headerImage = asset('assets/image/nature-process.jpeg');
+                $headerImage = asset('assets/image/NATURE-PROCESS.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'health-conscious':
-                $headerImage = asset('assets/image/health-conscious.jpeg');
+                $headerImage = asset('assets/image/HEALTH-CONSCIOUS.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
             case 'contact':
-                return view('page.contact', compact('menus'));
+                $headerImage = asset('assets/image/contctus.jpg');
+                return view('page.contact', compact('menus', 'headerImage'));
             case 'teh-dandang-taburbubuk':
+                $headerImage = asset('assets/image/Product-tubruk.jpg');
                 $products = (new Product())->get();
-                return view('page.product-list', compact('menus', 'products'));
+                return view('page.product-list', compact('menus', 'products', 'headerImage'));
             case 'teh-dandang-bag':
+                $headerImage = asset('assets/image/Product-bag.jpg');
                 $products = (new Product())->get();
-                return view('page.product-list', compact('menus', 'products'));
+                return view('page.product-list', compact('menus', 'products', 'headerImage'));
             default:
                 return redirect('/');
         }
