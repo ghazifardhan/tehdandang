@@ -89,6 +89,8 @@ class MenuController extends AdminController
         $form->hidden('slug', __('Slug'));
         $form->switch('is_static', __('Is static'));
 
+        $form->ckeditor('content');
+
         $form->saving(function ($form) {
             $form->slug = str_slug($form->title);
         });

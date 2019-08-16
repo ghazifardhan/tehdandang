@@ -20,6 +20,15 @@ class MenuController extends Controller
         switch ($menu) {
             case 'home':
                 return redirect('/');
+            case 'what-we-are-from':
+                $headerImage = asset('assets/image/About-Us-HISTORY-OF-THE-PRODUCT.jpg');
+                return view('page.static', compact('menus', 'headerImage'));
+            case 'what-we-are':
+                $headerImage = asset('assets/image/About-Us-SIMPLE-COMPANY-EXPLANATION.jpg');
+                return view('page.static', compact('menus', 'headerImage'));
+            case 'what-we-serve':
+                $headerImage = asset('assets/image/About-Us-WHAT-WE-BELIEVE.jpg');
+                return view('page.static', compact('menus', 'headerImage'));
             case 'history-of-the-product':
                 $headerImage = asset('assets/image/About-Us-HISTORY-OF-THE-PRODUCT.jpg');
                 return view('page.static', compact('menus', 'headerImage'));
