@@ -117,9 +117,6 @@
         @include('partials.footer')
 
         @yield('popup')
-
-        <!-- Newsletter -->
-        @include('partials.promo')
     </div>
     <!-- JS Library-->
     <script type="text/javascript" src="{{ asset('themes/plugins/jquery/dist/jquery.min.js') }}"></script>
