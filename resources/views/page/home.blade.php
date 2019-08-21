@@ -52,28 +52,28 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/history-of-the-product"></a><img
+                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/what-we-are-from"></a><img
                                         src="{{ asset('themes/images/about/about-1.jpg') }}" alt=""></div>
                                 <div class="ps-people__content">
-                                    <h4>History Of<br />The Product</h4>
+                                    <h4>What We Are From</h4>
                                 </div>
                             </article>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/simple-company-explanation"></a><img
+                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/what-we-are"></a><img
                                         src="{{ asset('themes/images/about/about-2.jpg') }}" alt=""></div>
                                 <div class="ps-people__content">
-                                    <h4>Simple Company<br />Explanation</h4>
+                                    <h4>What We Are</h4>
                                 </div>
                             </article>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/what-we-believe"></a><img
+                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/what-we-serve"></a><img
                                         src="{{ asset('themes/images/about/about-3.jpg') }}" alt=""></div>
                                 <div class="ps-people__content">
-                                    <h4>What We <br />Believe</h4>
+                                    <h4>What We Serve</h4>
                                 </div>
                             </article>
                         </div>
@@ -204,4 +204,9 @@
     </div>
 </section>
 
+@endsection
+
+@section('popup')
+<!-- Newsletter -->
+@include('partials.promo')
 @endsection
