@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('create_symlink', function() {
+
+    $target = "/home/thdndcom/public_html/tehdandang_new/public/storage";
+    $link = "/home/thdndcom/public_html/tehdandang_new/storage/app/public";
+    symlink($link, $target);
+
+});
