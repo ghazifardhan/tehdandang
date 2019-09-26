@@ -19,8 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('create_symlink', function() {
 
-    $target = "/home/thdndcom/public_html/tehdandang_new/public/storage";
-    $link = "/home/thdndcom/public_html/tehdandang_new/storage/app/public";
+    $target = "/home/thdndcom/public_html/thdndcom_new/public/storage";
+    $link = "/home/thdndcom/public_html/thdndcom_new/storage/app/public";
     symlink($link, $target);
 
 });
