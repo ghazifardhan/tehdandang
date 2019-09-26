@@ -70,8 +70,10 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
                             <article class="ps-people">
-                                <div class="ps-people__thumbnail"><a class="ps-people__overlay" href="/menu/what-we-serve"></a><img
-                                        src="{{ asset('themes/images/about/about-3.jpg') }}" alt=""></div>
+                                <div class="ps-people__thumbnail">
+                                    <a class="ps-people__overlay" href="/menu/what-we-serve"></a>
+                                    <img src="{{ asset('themes/images/about/about-3.jpg') }}" alt="">
+                                </div>
                                 <div class="ps-people__content">
                                     <h4>What We Serve</h4>
                                 </div>
@@ -97,7 +99,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                             <article class="ps-people">
                                 <div class="ps-people__thumbnail">
-                                    <a class="ps-people__overlay" href="/menu/teh-dandang-taburtubruk"></a>
+                                    <a class="ps-people__overlay" href="/menu/teh-dandang-taburbubuk"></a>
                                     <img src="{{ asset('themes/images/product-celup.png') }}" alt="">
                                 </div>
                             </article>
@@ -209,4 +211,14 @@
 @section('popup')
 <!-- Newsletter -->
 @include('partials.promo')
+@endsection
+
+@section("custom-script")
+<script>
+$(document).ready(function() {
+
+    
+
+});
+</script>
 @endsection

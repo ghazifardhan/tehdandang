@@ -145,5 +145,7 @@
     <script type="text/javascript" src="{{ asset('themes/plugins/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
     <!-- Custom scripts-->
     <script type="text/javascript" src="{{ asset('themes/js/main.js') }}"></script>
+
+    @yield("custom-script")
   </body>
 </html>
