@@ -71,7 +71,7 @@ class ProductController extends AdminController
 
         $form->hidden('slug', __('Slug'));
         // $form->image('photo_products', __('Photo Product'))->uniqueName();
-        $form->multipleImage('photo_products', __('Photo Product'))->uniqueName();
+        $form->multipleImage('photo_products', __('Photo Product'))->uniqueName()->removable();;
         $form->text('name', __('Name'));
         $form->textarea('description', __('Description'));
         $form->switch('is_bestseller', __('Is bestseller'));
