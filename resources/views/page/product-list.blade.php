@@ -62,8 +62,11 @@
                     <div class="ps-shop">
                         @foreach($products as $item)
                         <div class="ps-product--list ps-product--list-large">
-                            <div class="ps-product__thumbnail"><a class="ps-product__overlay"
-                                    href="{{ asset('storage/' . $item->photo_products) }}"></a><img src="{{ asset('storage/' . $item->photo_products) }}" alt="">
+                            <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay"
+                                    href="{{ asset('storage/' . $item->photo_products[0]) }}">
+                                    </a>
+                                    <img src="{{ asset('storage/' . $item->photo_products[0]) }}" alt="">
                             </div>
                             <div class="ps-product__content">
                                 <h4 class="ps-product__title"><a href="/product/{{ $item->slug }}">{{ $item->name }}</a></h4>

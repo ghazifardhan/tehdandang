@@ -26,8 +26,10 @@
                             data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
                             data-owl-nav-left="&lt;i class=&quot;fa fa-angle-left&quot;&gt;&lt;/i&gt;"
                             data-owl-nav-right="&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;">
-                            <div class="ps-product__image"><a href="{{ asset('storage/' . $product->photo_products) }}"><img
-                                        src="{{ asset('storage/' . $product->photo_products) }}" alt=""></a></div>
+                            @foreach($product->photo_products as $photos)
+                            <div class="ps-product__image"><a href="{{ asset('storage/' . $photos) }}"><img
+                                        src="{{ asset('storage/' . $photos) }}" alt=""></a></div>
+                            @endforeach
                         </div>
                         <!-- <div class="owl-slider second mb-30" data-owl-auto="true" data-owl-loop="false"
                             data-owl-speed="10000" data-owl-gap="20" data-owl-nav="false" data-owl-dots="false"
